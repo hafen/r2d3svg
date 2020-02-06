@@ -1,0 +1,21 @@
+Package: r2d3svg
+Title: Save high-quality vector-based file outputs for visualizations created with the r2d3 package
+Version: 0.0.1
+Authors@R: 
+    person(given = "Ryan",
+           family = "Hafen",
+           role = c("aut", "cre"),
+           email = "rhafen@gmail.com",
+           comment = c(ORCID = "0000-0002-5516-8367"))
+Description: Save high-quality vector-based file outputs (svg and pdf) for visualizations created with the r2d3 package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+Imports: 
+    r2d3,
+    chromote,
+    rsvg
+Remotes: 
+    rstudio/chromote
+RoxygenNote: 7.0.2
